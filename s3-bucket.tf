@@ -3,7 +3,6 @@ module "s3_bucket" {
 
   bucket        = "my-s3-bucket-for-this-workshop"
   acl           = "private"
-  bucket_prefix = "julanu0"
   versioning = {
     enabled = true
   }
